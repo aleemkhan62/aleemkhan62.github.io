@@ -1,9 +1,22 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"EMNLP":
+  url: https://aclanthology.org
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"NAACL":
+  url: https://aclanthology.org
+  color: "#00369f"
 
-"Vision":
-  color: "#009f36"
+"EACL":
+  url: https://aclanthology.org
+  color: "#00369f"
+
+"ICLR":
+  url:
+  color: "#007a9f"
+
+"ICML":
+  url:
+  color: "#007a9f"
+
+"arxiv":
+  color: "#B31A1B"
