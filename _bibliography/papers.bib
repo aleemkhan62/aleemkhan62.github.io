@@ -1,17 +1,129 @@
 ---
 ---
 
+@inproceedings{hager-etal-2025-mcmc,
+    title = "Learning Extrapolative Sequence Transformations from Markov Chains",
+    author = "Hager, Sophia  and
+      Khan, Aleem  and
+      Wang, Andrew  and
+      Andrews, Nicholas",
+    booktitle = "Proceedings of the 2025 International Conference on Machine Learning",
+    month = jul,
+    year = "2025",
+    address = "Online and Vancouver, Canada",
+    abbr = "ICML",
+}
+
+@inproceedings{rivera-soto-etal-2021-learning,
+    title = "Learning Universal Authorship Representations",
+    author = "Rivera-Soto, Rafael A.  and
+      Miano, Olivia Elizabeth  and
+      Ordonez, Juanita  and
+      Chen, Barry Y.  and
+      Khan, Aleem  and
+      Bishop, Marcus  and
+      Andrews, Nicholas",
+    editor = "Moens, Marie-Francine  and
+      Huang, Xuanjing  and
+      Specia, Lucia  and
+      Yih, Scott Wen-tau",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.70/",
+    doi = "10.18653/v1/2021.emnlp-main.70",
+    pages = "913--919",
+    abstract = "Determining whether two documents were composed by the same author, also known as authorship verification, has traditionally been tackled using statistical methods. Recently, authorship representations learned using neural networks have been found to outperform alternatives, particularly in large-scale settings involving hundreds of thousands of authors. But do such representations learned in a particular domain transfer to other domains? Or are these representations inherently entangled with domain-specific features? To study these questions, we conduct the first large-scale study of cross-domain transfer for authorship verification considering zero-shot transfers involving three disparate domains: Amazon reviews, fanfiction short stories, and Reddit comments. We find that although a surprising degree of transfer is possible between certain domains, it is not so successful between others. We examine properties of these domains that influence generalization and propose simple but effective methods to improve transfer.",
+    abbr = "EMNLP",
+    pdf = "https://aclanthology.org/2021.emnlp-main.70/"
+}
+
 @inproceedings{khan-etal-2021-deep,
-  abbr      = {NAACL},
-  title     = {A Deep Metric Learning Approach to Account Linking},
-  author    = {Khan, Aleem and Fleming, Elizabeth and Schofield, Noah and Bishop, Marcus and Andrews, Nicholas},
-  booktitle = {Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
-  month     = jun,
-  year      = {2021},
-  address   = {Online},
-  publisher = {Association for Computational Linguistics},
-  url       = {https://aclanthology.org/2021.naacl-main.415/},
-  doi       = {10.18653/v1/2021.naacl-main.415},
-  pages     = {5275--5287},
-  selected  = {true}
+    title = "A Deep Metric Learning Approach to Account Linking",
+    author = "Khan, Aleem  and
+      Fleming, Elizabeth  and
+      Schofield, Noah  and
+      Bishop, Marcus  and
+      Andrews, Nicholas",
+    editor = "Toutanova, Kristina  and
+      Rumshisky, Anna  and
+      Zettlemoyer, Luke  and
+      Hakkani-Tur, Dilek  and
+      Beltagy, Iz  and
+      Bethard, Steven  and
+      Cotterell, Ryan  and
+      Chakraborty, Tanmoy  and
+      Zhou, Yichao",
+    booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jun,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.naacl-main.415/",
+    doi = "10.18653/v1/2021.naacl-main.415",
+    pages = "5275--5287",
+    abstract = "We consider the task of linking social media accounts that belong to the same author in an automated fashion on the basis of the content and meta-data of the corresponding document streams. We focus on learning an embedding that maps variable-sized samples of user activity{--}ranging from single posts to entire months of activity{--}to a vector space, where samples by the same author map to nearby points. Our approach does not require human-annotated data for training purposes, which allows us to leverage large amounts of social media content. The proposed model outperforms several competitive baselines under a novel evaluation framework modeled after established recognition benchmarks in other domains. Our method achieves high linking accuracy, even with small samples from accounts not seen at training time, a prerequisite for practical applications of the proposed linking framework.",
+    abbr = "NAACL",
+    pdf = "https://aclanthology.org/2021.naacl-main.415/"
+}
+
+@inproceedings{
+soto2024fewshot,
+title={Few-Shot Detection of Machine-Generated Text using Style Representations},
+author={Rafael Alberto Rivera Soto and Kailin Koch and Aleem Khan and Barry Y. Chen and Marcus Bishop and Nicholas Andrews},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=cWiEN1plhJ},
+abstract = "The advent of instruction-tuned language models that convincingly mimic human writing poses a significant risk of abuse. However, such abuse may be counteracted with the ability to detect whether a piece of text was composed by a language model rather than a human author. Some previous approaches to this problem have relied on supervised methods by training on corpora of confirmed human- and machine- written documents. Unfortunately, model under-specification poses an unavoidable challenge for neural network-based detectors, making them brittle in the face of data shifts, such as the release of newer language models producing still more fluent text than the models used to train the detectors. Other approaches require access to the models that may have generated a document in question, which is often impractical. In light of these challenges, we pursue a fundamentally different approach not relying on samples from language models of concern at training time. Instead, we propose to leverage representations of writing style estimated from human-authored text. Indeed, we find that features effective at distinguishing among human authors are also effective at distinguishing human from machine authors, including state-of-the-art large language models like Llama-2, ChatGPT, and GPT-4. Furthermore, given a handful of examples composed by each of several specific language models of interest, our approach affords the ability to predict which model generated a given document.",
+abbr = "ICLR",
+pdf = "https://openreview.net/pdf?id=cWiEN1plhJ"
+}
+
+@inproceedings{weller-etal-2024-defending,
+    title = "Defending Against Disinformation Attacks in Open-Domain Question Answering",
+    author = "Weller, Orion  and
+      Khan, Aleem  and
+      Weir, Nathaniel  and
+      Lawrie, Dawn  and
+      Van Durme, Benjamin",
+    editor = "Graham, Yvette  and
+      Purver, Matthew",
+    booktitle = "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = mar,
+    year = "2024",
+    address = "St. Julian{'}s, Malta",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.eacl-short.35/",
+    pages = "402--417",
+    abstract = "Recent work in open-domain question answering (ODQA) has shown that adversarial poisoning of the search collection can cause large drops in accuracy for production systems. However, little to no work has proposed methods to defend against these attacks. To do so, we rely on the intuition that redundant information often exists in large corpora. To find it, we introduce a method that uses query augmentation to search for a diverse set of passages that could answer the original question but are less likely to have been poisoned. We integrate these new passages into the model through the design of a novel confidence method, comparing the predicted answer to its appearance in the retrieved contexts (what we call Confidence from Answer Redundancy, i.e. CAR). Together these methods allow for a simple but effective way to defend against poisoning attacks that provides gains of nearly 20{\%} exact match across varying levels of data poisoning/knowledge conflicts.",
+    abbr = "EACL",
+    pdf = "https://aclanthology.org/2024.eacl-short.35/"
+}
+
+@misc{fleshman2024adapterswapcontinuoustrainingllms,
+      title={AdapterSwap: Continuous Training of LLMs with Data Removal and Access-Control Guarantees}, 
+      author={William Fleshman and Aleem Khan and Marc Marone and Benjamin Van Durme},
+      year={2024},
+      eprint={2404.08417},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2404.08417},
+      abstract = "Large language models (LLMs) are increasingly capable of completing knowledge intensive tasks by recalling information from a static pretraining corpus. Here we are concerned with LLMs in the context of evolving data requirements. For instance: batches of new data that are introduced periodically; subsets of data with user-based access controls; or requirements on dynamic removal of documents with guarantees that associated knowledge cannot be recalled. We wish to satisfy these requirements while at the same time ensuring a model does not forget old information when new data becomes available. To address these issues, we introduce AdapterSwap, a training and inference scheme that organizes knowledge from a data collection into a set of low-rank adapters, which are dynamically composed during inference. Our experiments demonstrate AdapterSwap's ability to support efficient continual learning, while also enabling organizations to have fine-grained control over data access and deletion.",
+      abbr = "arxiv",
+      pdf = "https://arxiv.org/abs/2404.08417"
+}
+
+@misc{khan2024learninggeneratetextarbitrary,
+      title={Learning to Generate Text in Arbitrary Writing Styles}, 
+      author={Aleem Khan and Andrew Wang and Sophia Hager and Nicholas Andrews},
+      year={2023},
+      eprint={2312.17242},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2312.17242},
+      abstract = "Prior work in style-controlled text generation has focused on tasks such as emulating the style of prolific literary authors, producing formal or informal text, and mitigating toxicity of generated text. Plentiful demonstrations of these styles are available, and as a result modern language models are often able to emulate them, either via prompting or discriminative control. However, in applications such as writing assistants, it is desirable for language models to produce text in an author-specific style on the basis of a potentially small writing sample. For example, someone writing in a particular dialect may prefer writing suggestions that retain the same dialect. We find that instruction-tuned language models can struggle to reproduce author-specific style demonstrated in a prompt. Instead, we propose to guide a language model to generate text in a target style using contrastively-trained representations that capture stylometric features. Our approach (StyleMC) combines an author-adapted language model with sequence-level inference to improve stylistic consistency, and is found to be effective in a variety of conditions, including unconditional generation and style transfer. Additionally, we find that the proposed approach can serve as an effective anonymization method, by editing a document to mask authorship while preserving the original meaning.",
+      abbr = "arxiv",
+      pdf = "https://arxiv.org/abs/2312.17242"
 }
